@@ -1,0 +1,279 @@
+.topbar {
+    display: flex;
+    flex-direction: row;
+    box-shadow: var(--shadow-color);
+    padding: 10px 0px;
+    width: 100%;
+    height: 70px;
+}
+
+/* LEFT SIDE */
+.topbar .left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.topbar .left .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-color: white;
+    padding: 1px;
+}
+
+.topbar .left .logo img {
+    border-radius: 50%;
+}
+
+/* RIGHT SIDE */
+.topbar .right {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.topbar .right .toggle{
+    background-color: white;
+    display: none;
+    align-items: center;
+    font-size:35px;
+    color: var(--main);
+    border-radius: 6px;
+    border: 1px solid var(--main);
+}
+
+.topbar .right ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.topbar .right #menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.topbar .right #menu #menuItem a{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.topbar .right #menu #login-button{
+    margin-left: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid var(--second);
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar .right #menu #login-button a{
+    text-decoration: none;
+    color: var(--second);
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar .right #menu #logout-button{
+    margin-left: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    border: 1px solid red;
+}
+
+.topbar .right #menu #logout-button a{
+    text-decoration: none;
+    color: red;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.topbar .right ul li {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+/* .topbar .right ul li.active{
+    background-color: white;
+    color: var(--second);
+    border-radius: 10px;
+} */
+/* .topbar .right ul li:hover {
+    background-color: var(--main);
+    border: 1px solid var(--main);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+} */
+.topbar .right .logout-btn {
+    margin-left: 35px;
+    height: 35px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid red;
+    display: none;
+}
+
+.topbar .right .login-btn {
+    margin-left: 25px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid var(--second);
+    color: var(--second);
+    background-color: white;
+}
+
+.topbar .right .join-btn {
+    margin-left: 15px;
+    height: 35px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--main);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid var(--main);
+    background-color: white;
+}
+
+#access-buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+#access-buttons #join-button {
+    margin-left: 15px;
+    color: var(--main);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid var(--main);
+    background-color: white;
+}
+
+#access-buttons #join-button a {
+    text-decoration: none;
+    color: var(--main);
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-menu {
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    padding: 1px;
+    border-radius: 100%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#profile-menu img{
+    border-radius: 100%;
+}
+
+
+@media (max-width: 480px) {
+
+    .topbar .right ul {
+        height: 0px;
+        position: absolute;
+        top: 70px;
+        background-color: var(--second);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        transition: 0.2s;
+        overflow: hidden;
+        z-index: 1;
+        justify-content: center;
+    }
+
+    .topbar .right ul.active {
+        height: 250px;
+    }
+
+    .topbar .right ul li {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        margin: 0;
+        border: none;
+        margin: 10px;
+        border: 1px solid white;
+        color: white;
+        border-radius: 10px;
+    }
+    .topbar .right ul li.active {
+        background-color: white;
+        color: var(--second);
+    }
+
+    .topbar .right .toggle{
+        display: flex;
+        margin-right: 20px;
+    }
+    .topbar .right .logout-btn {
+        margin-top: 10px;
+        width: 200px;
+    }
+}

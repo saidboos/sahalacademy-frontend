@@ -1,0 +1,114 @@
+
+/* .swal-height{
+    height: 160px;
+} */
+
+#registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#registration #registration-container {
+    background-color: white;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#registration #registration-container #reg-title {
+font-size: 17px;
+color: black;
+}
+
+#registration #registration-container #reg-title hr{
+height: 3px;
+width: 30px;
+margin-top: 3px;
+background-image: linear-gradient(var(--main), var(--second));
+border: none;
+border-radius: 3px;
+}
+
+#registration #registration-container #reg-form .input-lines{
+    display: flex;
+    margin-top: 25px;
+}
+
+#registration #registration-container #reg-form .input-lines .input-field{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#registration #registration-container #reg-form .input-lines .input-field:last-child {
+    margin-left: 20px;
+}
+
+#registration #registration-container #reg-form .input-lines .input-field label{
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+#registration #registration-container #reg-form .input-lines .input-field input{
+    font-size: 14px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 4px;
+    outline: none;
+}
+
+#registration #registration-container #reg-form .input-lines .input-field .input-err{
+    font-size: 14px;
+    border: 1px solid red;
+}
+
+#registration #registration-container #reg-form .input-lines .input-field span {
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#registration #registration-container #reg-form #user-type-lines{
+    margin-top: 25px;
+}
+
+#registration #registration-container #reg-form #user-type-lines #u-title{
+    font-size: 17px;
+    color: black;
+}
+
+#registration #registration-container #reg-form #user-type-lines #u-types{
+    font-size: 17px;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+}
+
+#registration #registration-container #reg-form #user-type-lines #u-types #u-type {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#registration #registration-container #reg-form #user-type-lines #u-types #u-type label{
+    font-size: 14px;
+    margin-left: 10px;
+}
+#registration #registration-container #reg-form #submit-btn{
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, var(--main) , var(--second));
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

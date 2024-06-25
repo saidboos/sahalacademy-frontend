@@ -1,0 +1,253 @@
+#course-e-con {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#course-e-con #c-e-title {
+    font-size: 25px;
+}
+
+#course-e-con #c-e-title hr {
+    height: 4px;
+    background-color: var(--main);
+    border: none;
+    margin-top: 6px;
+}
+
+#course-e-con #c-e-content {
+    margin-top: 55px;
+    display: flex;
+}
+
+#course-e-con #c-e-content #c-e-left {
+    flex: 2;
+    margin-right: 40px;
+}
+
+#course-e-con #c-e-content #c-e-left hr {
+    margin-top: 7px;
+}
+
+#course-e-con #c-e-content #c-e-left .input-lines {
+    display: flex;
+    margin-top: 25px;
+}
+
+#course-e-con #c-e-content #c-e-left .input-lines .input-field {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#course-e-con #c-e-content #c-e-left .input-lines .input-field:last-child {
+    margin-left: 20px;
+}
+
+#course-e-con #c-e-content #c-e-left .input-lines .input-field label {
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+#course-e-con #c-e-content #c-e-left .input-lines .input-field input {
+    font-size: 14px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 4px;
+    outline: none;
+}
+
+label {
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+#c-country-city {
+    display: flex;
+}
+
+#select-country {
+    margin-top: 20px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+#select-city {
+    margin-top: 20px;
+    flex: 1;
+    margin-left: 10px;
+}
+
+
+#course-e-con #c-e-content #c-e-left .input-lines .input-field .input-err {
+    font-size: 14px;
+    border: 1px solid red;
+}
+
+#course-e-con #c-e-content #c-e-left .input-lines .input-field span {
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#order-title1 {
+    margin-top: 30px;
+}
+
+#order-title {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+#order-title p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#order-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 15px;
+}
+
+#order-content #c-detail {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+#order-content #c-detail img{
+    width: 130px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#order-content #c-detail #name {
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+#order-content #price {
+    flex: 1;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* RIGHT SECTION */
+
+#course-e-con #c-e-content #c-e-right {
+    flex: 1.2;
+    padding: 30px;
+    border: 1px solid gray;
+    margin-left: 30px;
+}
+
+#pay-with-sifalo {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 0 auto;
+}
+
+#pay-with-sifalo img {
+    border-radius: 10px;
+    width: 60%;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#pay-with-sifalo .sifalo-item {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+#pay-with-sifalo .sifalo-item .sleft {
+    display: flex;
+    align-items: center;
+}
+
+#pay-with-sifalo .sifalo-item .sleft img {
+    width: 40px;
+    border: 1px solid var(--second);
+    margin: 10px;
+    border-radius: 6px;
+    padding: 0px;
+    height: 30px;
+}
+
+#pay-with-sifalo .sifalo-item .sleft p {
+    font-size: 18px;
+}
+
+#pay-with-sifalo .sifalo-item span {
+    margin-right: 10px;
+    color: green;
+    font-size: 25px;
+    display: flex;
+}
+
+
+.sifalo-active {
+    border: 2px solid var(--main);
+}
+
+#pay-with-sifalo .sifalo-active p {
+    color: var(--main);
+}
+
+#sifalo-mobile {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+#sifalo-mobile hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    background-color: gray;
+    border: none;
+    width: 1px;
+}
+
+#sifalo-mobile input {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+
+#pay-btn {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 45px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    background-color: var(--main);
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+}

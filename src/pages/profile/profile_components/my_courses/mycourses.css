@@ -1,0 +1,58 @@
+
+/* COURSES SECTION STARTS */
+#course-content1 {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: red;
+    padding: 10px;
+}
+
+#myc-title1 {
+    width: 100%;
+    font-size: 28px;
+}
+
+#courses1 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#courses1 #course1 {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    cursor: pointer;
+}
+#courses1 #course1 img{
+    height: 140px;
+    border: 1px solid gray;
+}
+#courses1 #course1 #content1{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#courses1 #course1 #content1 #course-title1 {
+    font-size: 20px;
+}
+#courses1 #course1 #content1 #course-desc1 {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+#courses1 #no-found {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#courses1 #no-found img {
+    width: 260px;
+}

@@ -1,0 +1,58 @@
+#home-main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* SEE MORE BUTTON DESIGN */
+.mycourses-container #course .course-buttons .see-btn {
+    border: 1px solid var(--second);
+    color: var(--second);
+    padding: 4px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.mycourses-container #course .course-buttons .see-btn:hover {
+    background-color: var(--second);
+    color: white;
+}
+.mycourses-container #course .course-buttons .see-btn span {
+    font-size: 14px;
+    margin-right: 5px;
+}
+.mycourses-container #course .course-buttons .see-btn ion-icon {
+    font-size: 19px;
+}
+
+/* ENROLL BUTTON DESIGN */
+.mycourses-container #course .course-buttons .enroll-btn {
+    border: 1px solid var(--main);
+    color: var(--main);
+    padding: 4px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.mycourses-container #course .course-buttons .enroll-btn:hover {
+    background-color: var(--main);
+    color: white;
+}
+.mycourses-container #course .course-buttons .enroll-btn span {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.mycourses-container #course .course-buttons .see-btn span {
+    font-size: 14px;
+}
+.mycourses-container #course .course-buttons .enroll-btn ion-icon {
+    font-size: 19px;
+    margin-left: 5px;
+}
+

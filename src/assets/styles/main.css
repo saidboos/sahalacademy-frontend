@@ -1,0 +1,85 @@
+/* =========== Google Fonts ============ */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"); */
+
+/* =============== Globals ============== */
+* {
+  font-family: "Ubuntu", sans-serif;
+	/* font-family: "Roboto", sans-serif; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+
+img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main: #16B947;
+  --active:#16B947;
+  /* --second: #000080; */
+  --second: #0f1442;
+  --white: #fff;
+  --gray: #f5f5f5;
+  --black1: #222;
+  --black2: #999;
+  --footer-color:#0f1442;
+  --shadow-color:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --red:rgb(186, 4, 4);
+}
+
+
+      /* Media Query for Mobile Devices
+      @media (max-width: 480px) {
+        body {
+            background-color: red;
+        }
+    }
+      
+    /* Media Query for low resolution  Tablets, Ipads */
+    /* @media (min-width: 481px) and (max-width: 767px) {
+        body {
+            background-color: yellow;
+        }
+    } */
+      
+    /* Media Query for Tablets Ipads portrait mode */
+    /* @media (min-width: 768px) and (max-width: 1024px){
+        body {
+            background-color: blue;
+        }
+    } */
+      
+    /* Media Query for Laptops and Desktops */
+    /* @media (min-width: 1025px) and (max-width: 1280px){
+        body {
+            background-color: green;
+        }
+    }
+       */
+    /* Media Query for Large screens */
+    /* @media (min-width: 1281px) {
+        body {
+            background-color: white;
+        }
+    } */ 
+

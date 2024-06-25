@@ -1,0 +1,55 @@
+.enroll-container {
+    width: 500px;
+    padding: 20px;
+    box-shadow: var(--shadow-color);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enroll-container .success-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 40px;
+}
+.enroll-container .content-text {
+    margin-top: 10px;
+}
+.enroll-container .content-text span {
+   color: var(--second);
+   font-weight: bold;
+}
+
+.enroll-container .support-call {
+    display: flex;
+    margin-top: 30px;
+    color: var(--second);
+    font-weight: bold;
+    border: 1px solid var(--second);
+    padding: 10px 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+.enroll-container .support-call ion-icon {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.enroll-container button {
+    margin-top: 50px;
+    border: none;
+    background-color: var(--main);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: var(--shadow-color);
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .enroll-container {
+        width: 100%;
+    }
+}
